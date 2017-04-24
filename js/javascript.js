@@ -234,6 +234,6 @@ var arr = [
 
 
 arr.forEach(function(cv){
-   document.write("<b>"+cv.name+"</b>" + " <br>" +cv.address.street + " ," + cv.address.suite + " ,<i>" + cv.address.city + "</i><br></br>")
+   document.write("<b>"+"Name: " +cv.name+"</b>" + " <br>"+"Address: " +cv.address.street + " ," + cv.address.suite + " ,<i>" + cv.address.city + "</i><br></br>")
 }) 
 
